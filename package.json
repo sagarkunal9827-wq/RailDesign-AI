@@ -1,0 +1,7 @@
+{
+  "name":"youtube-autopilot-ai","version":"1.0.0","private":true,
+  "description":"YouTube creator workflow dashboard with channel OAuth, metadata AI, video upload and scheduled publishing",
+  "main":"src/server.js","scripts":{"start":"node src/server.js","dev":"node --watch src/server.js"},
+  "engines":{"node":">=20"},
+  "dependencies":{"bcryptjs":"^2.4.3","better-sqlite3":"^11.8.1","dotenv":"^16.4.7","express":"^4.21.2","express-session":"^1.18.1","googleapis":"^144.0.0","multer":"^1.4.5-lts.1","node-cron":"^3.0.3","openai":"^4.77.0"}
+}
